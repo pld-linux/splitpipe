@@ -1,0 +1,35 @@
+diff -ur splitpipe-0.4-orig/display.cc splitpipe-0.4/display.cc
+--- splitpipe-0.4-orig/display.cc	2005-05-05 09:25:59.000000000 -0600
++++ splitpipe-0.4/display.cc	2005-05-06 22:32:12.000000000 -0600
+@@ -16,7 +16,7 @@
+ */
+ 
+ #include "display.hh"
+-#include <ncurses.h>
++#include <ncurses/ncurses.h>
+ #include <string>
+ #include <stdexcept>
+ #include <time.h>
+diff -ur splitpipe-0.4-orig/display.hh splitpipe-0.4/display.hh
+--- splitpipe-0.4-orig/display.hh	2005-05-05 09:25:59.000000000 -0600
++++ splitpipe-0.4/display.hh	2005-05-06 22:32:12.000000000 -0600
+@@ -1,6 +1,6 @@
+ #ifndef SPLITPIPE_DISPLAY_HH
+ #define SPLITPIPE_DISPLAY_HH
+-#include <ncurses.h>
++#include <ncurses/ncurses.h>
+ #include "ddr.hh"
+ #include <string>
+ #include <stdint.h>
+diff -ur splitpipe-0.4-orig/splitpipe.cc splitpipe-0.4/splitpipe.cc
+--- splitpipe-0.4-orig/splitpipe.cc	2005-05-05 09:25:59.000000000 -0600
++++ splitpipe-0.4/splitpipe.cc	2005-05-06 22:32:43.000000000 -0600
+@@ -27,7 +27,7 @@
+ #include <stdint.h>
+ #include <signal.h>
+ #include <errno.h>
+-#include <ncurses.h>
++#include <ncurses/ncurses.h>
+ #include <cmath>
+ #include "misc.hh"
+ #include "ringbuffer.hh"
