@@ -1,4 +1,4 @@
-# TODO: optflags; isn't libstdc++-devel required as well?
+# TODO: optflags
 Summary:	Split streams into volumes
 Summary(pl):	Dzielenie strumieni na wolumeny
 Name:		splitpipe
@@ -10,7 +10,7 @@ Source0:	http://ds9a.nl/splitpipe/%{name}-%{version}.tar.gz
 # Source0-md5:	2ac1358055af126d1c6bf8ccd51ac784
 Patch0:		%{name}-ncurses.patch
 URL:		http://ds9a.nl/splitpipe/
-BuildRequires:	gcc-c++
+BuildRequires:	libstdc++-devel
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
