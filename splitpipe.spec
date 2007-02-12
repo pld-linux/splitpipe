@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Split streams into volumes
-Summary(pl):	Dzielenie strumieni na wolumeny
+Summary(pl.UTF-8):   Dzielenie strumieni na wolumeny
 Name:		splitpipe
 Version:	0.4
 Release:	1
@@ -19,9 +19,9 @@ Splitpipe is a program that allows the output of a program to span
 multiple volumes. Volumes might be DVD's, CD's, files, entire hard
 disks or floppies.
 
-%description -l pl
-Splitpipe to program pozwalaj±cy na podzia≥ wyj∂cia programu na wiele
-wolumenÛw. Wolumeny mog± byÊ p≥ytami DVD, p≥ytami CD, plikami, ca≥ymi
+%description -l pl.UTF-8
+Splitpipe to program pozwalajƒÖcy na podzia≈Ç wyj≈õcia programu na wiele
+wolumen√≥w. Wolumeny mogƒÖ byƒá p≈Çytami DVD, p≈Çytami CD, plikami, ca≈Çymi
 dyskami twardymi lub dyskietkami.
 
 %prep
