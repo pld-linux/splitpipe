@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Split streams into volumes
-Summary(pl.UTF-8):   Dzielenie strumieni na wolumeny
+Summary(pl.UTF-8):	Dzielenie strumieni na wolumeny
 Name:		splitpipe
 Version:	0.4
 Release:	1
